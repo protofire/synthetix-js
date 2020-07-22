@@ -6,7 +6,6 @@ import Metamask from '../lib/signers/metamaskSigner';
 import Ledger from '../lib/signers/ledgerSigner';
 import Coinbase from '../lib/signers/coinbaseSigner';
 import PrivateKey from '../lib/signers/privateKeySigner';
-import WalletConnect from '../lib/signers/walletConnectSigner';
 import Portis from '../lib/signers/portisSigner';
 
 const signers = {
@@ -15,7 +14,6 @@ const signers = {
   Metamask,
   PrivateKey,
   Coinbase,
-  WalletConnect,
   Portis,
 };
 
